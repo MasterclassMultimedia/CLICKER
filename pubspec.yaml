@@ -9,6 +9,15 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
+  # AWS SDK for Flutter (using HTTP client approach for better compatibility)
+  # aws_dynamodb_api: ^0.1.0  # Commented out due to null safety issues
+  # aws_signature_v4: ^0.1.0   # Commented out due to null safety issues
+  # HTTP client for API calls
+  http: ^1.1.0
+  # Shared preferences for local storage
+  shared_preferences: ^2.2.2
+  # UUID for unique identifiers
+  uuid: ^4.2.1
 
 dev_dependencies:
   flutter_test:
